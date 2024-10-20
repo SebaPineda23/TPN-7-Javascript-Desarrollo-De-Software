@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP Nº7 Desarrollo de Software.</title>
+  </head>
+  <body>
+    <div>
+      <p>Este es el primer párrafo.</p>
+      <p>Este es el segundp párrafo.</p>
+      <p>Este es el tercer párrafo.</p>
+      <button onclick="cambiarColor()">Cambiar a color azul</button>
+    </div>
+    <div>
+      <h2>Formulario Simple</h2>
+      <form id="miFormulario">
+          <label for="texto">Ingresa un texto:</label>
+          <input type="text" id="texto" placeholder="Escribe algo aquí" required />
+          <button type="submit">Enviar</button>
+      </form>
+  </div>
+  <div>
+    <h2>Lista de Elementos</h2>
+    <ul id="miLista">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+    </ul>
+  </div>
+  <div>
+    <h2>Campo de Texto</h2>
+    <input type="text" id="miCampoTexto" placeholder="Escribe algo aquí" />
+    <br>
+    <button id="deshabilitarBtn">Deshabilitar</button>
+    <button id="habilitarBtn">Habilitar</button>
+  </div>
+  <div class="form-container">
+    <h2>Guardar Correo Electrónico</h2>
+    <form id="miFormulario">
+        <input type="email" id="correoInput" placeholder="Introduce tu correo electrónico" required />
+        <button type="submit">Guardar</button>
+    </form>
+    <div id="correoGuardado"></div>
+</div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
